@@ -10,7 +10,7 @@ body {
     background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
-    background-size: cover;
+    background-size: contain;
 }
 
 h1,
@@ -71,7 +71,7 @@ p {
     justify-content: space-around;
     align-items: center;
     margin: 0.5rem;
-    
+
 }
 
 .annual-container img {
@@ -137,6 +137,45 @@ p {
     cursor: pointer;
 }
 
+/* DESKTOP */
+
+@media screen and (min-width: 510px) {
+
+    .container {
+        border-radius: 20px;
+        width: 28rem;
+        background-color: #fff;
+        margin: 25% auto 25% auto;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .order-content {
+        padding-bottom: 1rem;
+    }
+
+    .order-content p {
+        padding: 1rem;
+    }
+
+    .annual-container {
+        width: 21rem;
+    }
+
+    .payment {
+        padding: 1rem 5.8rem;
+        box-shadow: 0px 20px 30px 0px #DCD9FA;
+    }
+
+    .cancel {
+        padding: 2rem 0;
+    }
+}
 
 
 
+/* 
+PICK UP WHERE YOU LEFT OFF: 
+- FIGURE OUT A WAY TO MAKE THE VIEWPORT SMALLER ON DESKTOP SO THERE ISN'T SCROLLING */
