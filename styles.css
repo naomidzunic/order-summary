@@ -7,9 +7,136 @@
 
 body {
     font-size: 1rem;
-    text-align: center;
     background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
     background-size: cover;
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 0.875rem;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 200;
+    line-height: 1.5;
+    padding-top: 1rem;
+}
+
+
+.container {
+    border-radius: 20px;
+    width: 20.6rem;
+    background-color: #fff;
+    margin: 25% auto 25% auto;
+
+}
+
+.container img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding: 0;
+}
+
+.order-content {
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    padding: 2rem;
+}
+
+.annual-container {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 11px 11px;
+    width: 17.43rem;
+    margin: 0 auto;
+    padding: 0.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5rem;
+    
+}
+
+.annual-container img {
+    width: 48px;
+    margin: 0;
+    align-items: center;
+}
+
+.annual-container h2 {
+    margin-bottom: 3px;
+}
+
+.annual-container p {
+    padding-top: 0;
+    font-size: 0.875rem;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.change:hover {
+    color: #766CF1;
+    text-decoration: none;
+}
+
+/* BUTTONS */
+
+.payment {
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 11px;
+    font-size: 0.94rem;
+    font-weight: 900;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    display: flex;
+    margin: 0 auto;
+}
+
+.payment:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+.cancel {
+    border: none;
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);
+    padding: 1.5rem 1rem;
+    border-radius: 11px;
+    font-size: 0.94rem;
+    font-weight: 900;
+    display: flex;
+    margin: 0 auto;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+
+
+
